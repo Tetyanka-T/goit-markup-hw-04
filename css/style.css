@@ -437,8 +437,10 @@ body {
   margin-right: 0;
 }
 .clients-link {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  :center ;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -455,7 +457,6 @@ body {
   fill: var(--accent-text-color);
 }
 .clients-icon {
-  background-position: 50% 50%;
   fill: #afb1b8;
 }
 /* ========= End Clients ===== */
