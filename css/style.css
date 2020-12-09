@@ -228,28 +228,29 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
 
+.hero-title {
+  margin-left: 452px;
+  margin-right: 452px;
+  padding-top: 200px;
   color: #ffffff;
   font-family: var(--main-font);
   text-align: center;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.hero-title {
-  margin-left: 280px;
-  margin-right: 236px;
-  padding-top: 200px;
-
   font-weight: 900;
   font-size: 44px;
 }
 .hero-button {
+  margin-left: 700px;
+  margin-right: 700px;
   min-width: 136px;
   padding: 10px 27px;
   margin-top: 30px;
   margin-bottom: 200px;
+  text-align: center;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
