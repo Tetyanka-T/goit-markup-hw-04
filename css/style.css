@@ -54,7 +54,6 @@ body {
   padding: 0 15px;
 }
 /* ======== HEADER========*/
-
 .site-nav {
   display: flex;
 }
@@ -215,7 +214,7 @@ body {
   overflow: hidden;
 }
 
-.hero-canvas {
+.hero-section {
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -229,10 +228,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-.hero-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
+
   color: #ffffff;
   font-family: var(--main-font);
   text-align: center;
@@ -244,13 +240,16 @@ body {
 .hero-title {
   margin-left: 280px;
   margin-right: 236px;
+  padding-top: 200px;
+
   font-weight: 900;
   font-size: 44px;
 }
 .hero-button {
   min-width: 136px;
   padding: 10px 27px;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 200px;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -294,7 +293,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.button-icon {
+.frame-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -549,6 +551,7 @@ footer {
 .footer-social-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* ======== END Footer ========*/
 
@@ -629,5 +632,10 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-
+.work .item:hover,
+.item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: 1px solid #eeeeee;
+}
 /* ========= END Portfolio =======*/
