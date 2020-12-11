@@ -214,6 +214,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.hero-section {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--main-font);
+}
 
 .hero-canvas {
   max-width: 1600px;
@@ -232,12 +237,10 @@ body {
 }
 
 .hero-title {
-  margin-left: 452px;
-  margin-right: 452px;
+  margin-left: 280px;
+  margin-right: 236px;
   padding-top: 200px;
-  color: #ffffff;
-  font-family: var(--main-font);
-  text-align: center;
+
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -245,13 +248,11 @@ body {
   font-size: 44px;
 }
 .hero-button {
-  margin-left: 700px;
-  margin-right: 700px;
   min-width: 136px;
   padding: 10px 27px;
   margin-top: 30px;
   margin-bottom: 200px;
-  text-align: center;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -600,12 +601,8 @@ footer {
 .work .work-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  width: 370px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  overflow: hidden;
 }
+
 .work .work-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -616,6 +613,13 @@ footer {
   display: block;
   width: 370px;
   height: 404px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.work-foto {
+  width: 100%;
 }
 .work-item:hover .card,
 .work-item:focus .card {
@@ -647,7 +651,5 @@ footer {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.item .card:hover,
-.item .card:focus {
-}
+
 /* ========= END Portfolio =======*/
